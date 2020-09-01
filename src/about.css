@@ -1,21 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap');
 
-*{
-    padding: 0px;
-    margin: 0px;
+* {
     box-sizing: border-box;
 }
 
-.navbar {
-    width: 100%;
+body {       
+    background: url("N.Lucuab - General Background.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px;
+}
+
+.nav-link {
+    text-decoration: none; 
+    border-bottom: none; 
+    color: white;
+}
+
+.home-about {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    border:solid 7px #382e18;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,.65);
     padding: 20px;
-    position: fixed;
+}
+
+#navbar {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
     top: 0px;
     text-align: right;
     transition: .5s;
 }
 
-.navbar ul li {
+#navbar ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 30px;
@@ -26,42 +51,29 @@
     border-radius: 10px;
 }
 
-.navbar ul li:hover {
+#navbar ul li:hover {
     background-color: rgb(88, 48, 29);
     text-decoration: underline;
 }
 
-.home-about {
-    width: 100vw;
-    height: 100vh;          
-    background-image: url("N.Lucuab - General Background.png");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.about-intro {
-    line-height: 70px;
-}
 .about-text {
+    margin: auto;
     font-family: 'Raleway', sans-serif;
-    font-size: 15pt;
-    font-weight: normal;
-    background-clip: content-box;
-    background-color: rgb(110, 66, 46);
-    color: white;
     text-align: center;
-    line-height: 30px;
-    max-width: 650px;
-    padding-top: 130px;
-    padding-left: 100px;
-
+    width: 700px;
+    height: fit-content;
+    padding: 20px;
 }
-.about-photo {
-    position: inherit;
-    float: right;
-    padding-top: 155px;
-    padding-right: 200px;
-    max-width: 650px;
-    max-height: 650px;
 
+.about-photo {
+    width: 220px;
+}
+
+h1 {
+    margin: unset;
+}
+
+.photo-container {
+    margin: auto;
+    padding: 20px;
 }
