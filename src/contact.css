@@ -1,12 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
 *{
+    font-family: "Josefin Sans", sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-.header{   
+body {   
     width: 100vw;
     height: 100vh;
     background-image: url("N.Lucuab - General Background.png");
@@ -21,7 +22,7 @@
     color: white;
 }
 
-#navbar{
+#navbar {
     width: 100%;
     padding: 20px;
     position: fixed;
@@ -44,4 +45,85 @@
 #navbar ul li:hover{
     background-color: rgb(88, 48, 29);
     text-decoration: underline;
+}
+
+.contact-home {
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    top: 400px;
+    text-align: center center;
+    transition: .5s
+
+}
+
+.contact-home li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.contact-home li:hover {
+    text-decoration: underline;
+    background-color: rgb(88, 48, 29);
+}
+
+.contact-link {
+    display: flex;
+    text-decoration: none; 
+    border-bottom: none; 
+    color: white;
+}
+
+.icon {
+    height: 150px;
+    padding-bottom: 15px;
+}
+
+#links-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: unset;
+    color: black;
+    
+}
+
+.link-container:hover {
+    text-decoration: underline;
+    
+}
+
+#contact-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: auto;
+    border:solid 7px black;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,.65);
+    padding: 30px;
+    position: absolute;
+    margin-left: -350px;
+    margin-top: -155px;
+    top: 50%;
+    left: 50%;
+}
+
+h1 {
+    margin-bottom: 0.67em;
+}
+
+h2 {
+    margin-top: 0.5em;
 }
