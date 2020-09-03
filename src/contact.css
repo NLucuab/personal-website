@@ -31,7 +31,7 @@ body {
     transition: .5s;
 }
 
-#navbar ul li{
+#navbar ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 30px;
@@ -42,7 +42,7 @@ body {
     border-radius: 10px;
 }
 
-#navbar ul li:hover{
+#navbar ul li:hover {
     background-color: rgb(88, 48, 29);
     text-decoration: underline;
 }
