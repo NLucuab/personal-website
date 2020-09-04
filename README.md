@@ -1,4 +1,7 @@
 # personal-website
-My first HTML/CSS project created with the intent to be used as a personal blog.
+* My first HTML/CSS project created with the intent to be used as a personal blog
 
-Future plans: design/add a blog component for frequent personal use.
+
+# Future plans
+* Design/add a blog component for frequent personal use
+* Update website for tablet/mobile compatibility
