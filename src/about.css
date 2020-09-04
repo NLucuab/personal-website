@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+.about-photo {
+    width: 220px;
+}
+
+.about-text {
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 700px;
+    height: fit-content;
+    padding: 20px;
+}
+
 body {       
     background: url("N.Lucuab - General Background.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -11,12 +24,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
     margin: 0px;
-}
-
-.nav-link {
-    text-decoration: none; 
-    border-bottom: none; 
-    color: white;
 }
 
 .home-about {
@@ -29,6 +36,10 @@ body {
     border-radius: 25px;
     background-color: rgba(255,255,255,.65);
     padding: 20px;
+}
+
+h1 {
+    margin: unset;
 }
 
 #navbar {
@@ -56,21 +67,10 @@ body {
     text-decoration: underline;
 }
 
-.about-text {
-    margin: auto;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    width: 700px;
-    height: fit-content;
-    padding: 20px;
-}
-
-.about-photo {
-    width: 220px;
-}
-
-h1 {
-    margin: unset;
+.nav-link {
+    text-decoration: none; 
+    border-bottom: none; 
+    color: white;
 }
 
 .photo-container {
