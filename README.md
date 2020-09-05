@@ -1,7 +1,7 @@
 # personal-website
 * My first HTML/CSS project!
 * Deployed by Netlify
-* Check me out @ www.ngtlucuab.com!
+* Check me out @ https://www.ngtlucuab.com
 
 # Learning Highlights
 * Github for code version control
