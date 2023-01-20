@@ -14,3 +14,8 @@
 # Future plans
 * Design/add a blog component for frequent personal use
 * Update website for tablet/mobile compatibility
+
+# Latest Updates
+* Updated HTML to be more semantic/readable
+* Updated content to be up-to-date
+* Working on changing background images
